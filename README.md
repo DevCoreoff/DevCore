@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>DevCore</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:#0d1117;
+color:white;
+}
+
+header{
+background:#161b22;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+color:#ff0000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h2{
+font-size:55px;
+color:#ff0000;
+}
+
+.hero p{
+font-size:20px;
+max-width:700px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 40px;
+background:#ff0000;
+color:white;
+text-decoration:none;
+border-radius:8px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#161b22;
+margin-top:100px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>DevCore</h1>
+
+<nav>
+<a href="index.html">Accueil</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>Bienvenue sur DevCore</h2>
+
+<p>
+Création de serveurs Discord, FiveM, logos, développement,
+configurations et bien plus encore.
+</p>
+
+<a class="btn" href="services.html">
+Découvrir nos services
+</a>
+
+</section>
+
+<footer>
+© 2026 DevCore - Tous droits réservés.
+</footer>
+
+</body>
+</html>
