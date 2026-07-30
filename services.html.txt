@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Services DevCore</title>
+
+<style>
+
+body{
+background:#0d1117;
+font-family:Arial;
+color:white;
+margin:0;
+}
+
+header{
+background:#161b22;
+padding:20px;
+text-align:center;
+}
+
+h1{
+color:red;
+}
+
+.container{
+width:90%;
+margin:auto;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+margin-top:50px;
+}
+
+.card{
+background:#161b22;
+width:300px;
+padding:25px;
+margin:20px;
+border-radius:10px;
+text-align:center;
+}
+
+.card h2{
+color:red;
+}
+
+footer{
+background:#161b22;
+text-align:center;
+padding:20px;
+margin-top:80px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Nos Services</h1>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Serveurs Discord</h2>
+<p>Création complète avec rôles, salons, permissions et boutique.</p>
+</div>
+
+<div class="card">
+<h2>Serveurs FiveM</h2>
+<p>Développement, optimisation, mapping et configuration.</p>
+</div>
+
+<div class="card">
+<h2>Logos & Bannières</h2>
+<p>Créations graphiques pour Discord, TikTok et réseaux sociaux.</p>
+</div>
+
+<div class="card">
+<h2>Boutiques</h2>
+<p>Boutiques Discord avec paiements PayPal et Coins.</p>
+</div>
+
+</div>
+
+<footer>
+
+DevCore © 2026
+
+</footer>
+
+</body>
+</html>
